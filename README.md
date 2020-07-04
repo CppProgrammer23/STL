@@ -1,5 +1,5 @@
 # STL
 
-#alogo
+#algorithms: 101
 #iterators
-#containers
+#containers: sets, maps, vectors, arrays, deque, stack, queues, lists(...), etc..
