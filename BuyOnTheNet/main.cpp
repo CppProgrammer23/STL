@@ -7,22 +7,6 @@
 
 using namespace std;
 
-//template <typename T,typename T1>
-//void dis(map<T,unordered_set<T1>>l)
-//{
-//	for (auto i : l)
-//	{
-//		cout << i.first << " ";
-//		for (auto j : i.second)
-//		{
-//			while (auto it != j.end())
-//			{
-//				cout << *it << " " << *it++ << " ";
-//			}
-//		}
-//	}
-//	cout << endl;
-//}
 
 void option(void)
 {
@@ -40,7 +24,7 @@ void avail_art(void)
 	int quantity, disp = MAX, disp2 = MAX, disp3 = MAX, disp4 = MAX, disp5 = MAX, sum = 0;
 	bool b = true;
 	map<string, unordered_set<int>>m{
-		{"Mouse",{120,disp}},		/*price and available articles*/
+		{"Mouse",{120,disp}},		/*price and available articles! I used unordered set so the values in still in the same place*/ 
 		{"Keyboard",{75,disp2}},
 		{"Monitor",{750,disp3}},
 		{"GPU",{1200,disp4}},
