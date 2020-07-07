@@ -44,7 +44,7 @@ int main()
 {
 	vector<string> strings{
 		"Madam", "lol",
-		"tool", "nasa",
+		"tools", "nasa",
 		"Roma", "A santa at nasa"
 	};
 	cout << boolalpha;
